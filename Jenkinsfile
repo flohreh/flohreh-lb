@@ -8,7 +8,7 @@ pipeline {
         IMAGE_TAG = "build-${BUILD_NUMBER}"
         GITHUB_URL = 'https://github.com/flohreh/flohreh-lb.git'
         
-        KUBECONFIG = credentials('roseaw-225')
+        KUBECONFIG = credentials('flohreh-225')
     }
 
     stages {
